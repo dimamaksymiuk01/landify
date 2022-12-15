@@ -1,0 +1,208 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter:wght@100&display=swap');
+    font-family: 'Inter', sans-serif;
+}
+.total {
+    display: flex;
+    flex-direction: column;
+}
+.all {
+    width: 100%;
+    max-width: 1440px;
+    align-self: center;
+    position: relative;
+    overflow: hidden;
+    /* display: grid; */
+
+}
+.blockone {
+    height: 1200px;
+    position: relative;
+    background-image: url(./Background.png)
+}
+.logo {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo:nth-child(2) {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+.app {
+    justify-content: flex-end;
+    margin-right: 270px;
+}
+.headtext {
+    padding-right: 450px;
+    padding-top: 8px;
+    margin-left: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.headtext > span {
+    margin-left: 15px;
+}
+.wrapper {
+    height: 100%;
+    /* display: grid;
+    justify-content: center; */
+}
+.textleft {
+    /* background-color: blue; */
+    height: 350px;
+    position: relative;
+}
+.phone {
+    /* background-color: rgb(68, 255, 55); */
+    width: 720px;
+    height: 650px;
+}
+.textleft>p:nth-child(1) {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 28px;
+    /* padding-right: 50px; */
+}
+.textleft>p:nth-child(2) {
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 21px;
+}
+.get {
+    position: absolute;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+    display: flex;
+    left: 30px;
+    /* bottom: 310px; */
+}
+.phone {
+    position: relative;
+}
+.iphone {
+    position: absolute;
+}
+
+
+.company {
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    position: relative;
+}
+.lineone {
+    justify-content: center;
+    width: 80%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.26);
+    display: flex;
+}
+.logos>img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.linetwo {
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.26);
+    top: 220px;
+}
+
+
+
+.blocktwo {
+    height: 1550px;
+    position: relative;
+    /* justify-content: center; */
+}
+.texttwo>p:nth-child(1) {
+    font-size: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.texttwo>p:nth-child(2) {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tabble {
+    padding-left: 10px;
+    margin-top: 80px;
+    position: relative;
+}
+.lorem {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.tabone {
+    text-align: center;
+    width: 384px;
+    /* padding-left: 10px; */
+    /* padding-right: 20px; */
+    /* height: 100px; */
+}
+.tabtwo {
+    text-align: center;
+    width: 384px;
+    padding-top: 22px;
+    /* height: 100px; */
+}
+.tabthree {
+    text-align: center;
+    width: 384px;
+    padding-top: 22px;
+    /* height: 100px; */
+}
+.tabfour {
+    text-align: center;
+    width: 384px;
+    padding-top: 22px;
+    /* height: 100px; */
+}
+.tabfive {
+    text-align: center;
+    width: 384px;
+    padding-top: 22px;
+    /* height: 100px; */
+}
+.tabsix {
+    text-align: center;
+    width: 384px;
+    padding-top: 22px;
+    /* height: 100px; */
+}
+
+
+.blockthree {
+    background-color: #D5FAFC;
+    position: relative;
+}
+.qoutemark {
+    margin-left: 10px;
+    padding-top: 20px;
+    position: absolute; 
+}
+.blockthree>h1 {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 8px;
+}
+.blockthree>p {
+    padding-left: 20px;
+    padding-right: 8px;
+}
