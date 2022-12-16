@@ -188,9 +188,11 @@ body {
 }
 
 
+
 .blockthree {
     background-color: #D5FAFC;
     position: relative;
+    padding-bottom: 30px;
 }
 .qoutemark {
     margin-left: 10px;
@@ -205,4 +207,96 @@ body {
 .blockthree>p {
     padding-left: 20px;
     padding-right: 8px;
+}
+.airb {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.airb>img {
+    /* position: absolute; */
+    margin-left: 30px;
+    padding-top: 25px;
+}
+.used>img {
+    margin-left: 30px;
+    position: absolute;
+}
+.uses {
+    padding-left: 70px;
+    padding-right: 30px;
+
+}
+.uses>p:nth-child(1) {
+    color: black;
+}
+.jane {
+    padding-left: 70px;
+    padding-right: 30px;
+    line-height: 5px;
+    height: 60px;
+}
+.jane>p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.jane>span {
+    color: rgba(0, 0, 0, 0.386);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}  
+
+.blockfour>h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blockfour>p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.sups {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+} 
+.fost {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 300px;
+}
+.fosttt {
+    line-height: 2px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.fosttt>p {
+    font-size: 25px;
+    font-weight: bold;
+}
+.fosttt>span {
+    font-size: 16px;
+}
+.linefour {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.095);
+}
+.easy {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.easy>h1 {
+    padding-top: 10px;
+}
+.easy>img {
+    padding-top: 30px;
 }
